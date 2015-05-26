@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_panel_top_chart_panel_margin_top">20.0dip</dimen>
+    <dimen name="main_panel_add_new_record_btn_margin_top">30.0dip</dimen>
+    <dimen name="main_panel_expense_type_margin_top">30.0dip</dimen>
+    <dimen name="main_panel_expense_type_height">150.0dip</dimen>
+    <dimen name="edit_record_image_margin_left">5.0dip</dimen>
+    <dimen name="edit_record_main_panel_margin_top">20.0dip</dimen>
+    <dimen name="edit_record_bottom_panel_margin_top">25.0dip</dimen>
+    <dimen name="expense_chart_pie_translate_y">20.0dip</dimen>
+    <dimen name="expense_chart_pie_text_margin_top">50.0dip</dimen>
+</resources>

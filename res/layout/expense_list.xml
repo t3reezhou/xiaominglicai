@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_expense_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/main_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@id/panel_top"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:background="@drawable/topbar_bg" >
+
+            <Button
+                android:id="@id/top_back"
+                android:layout_width="70.0dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:background="@drawable/back_btn"
+                android:gravity="center"
+                android:text="返回"
+                android:textColor="#ffffffff" />
+
+            <RelativeLayout
+                android:id="@id/top_title_parent"
+                android:layout_width="100.0dip"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/topbar_typebg"
+                android:clickable="true"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip" >
+
+                <TextView
+                    android:id="@id/top_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="加油"
+                    android:textColor="#ffffffff"
+                    android:textSize="20.0dip"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="fuck"
+                    android:src="@drawable/arrow_down_icon" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@id/top_btn"
+                android:layout_width="70.0dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/topbtn"
+                android:gravity="center"
+                android:text="查看图表"
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/expense_list_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/repex_bg"
+            android:paddingBottom="5.0dip" >
+
+            <Button
+                android:id="@id/expense_list_btn_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:background="@drawable/arrow_prev_btn" />
+
+            <Button
+                android:id="@id/expense_list_btn_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/arrow_next_btn" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2.0dip"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@id/expense_list_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2012-01"
+                    android:textColor="#ffa55924"
+                    android:textSize="18.0dip" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5.0dip"
+                        android:text="盈余:"
+                        android:textColor="#ff686868"
+                        android:textSize="16.0dip" />
+
+                    <TextView
+                        android:id="@id/expense_list_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/money_bg"
+                        android:gravity="center"
+                        android:paddingLeft="5.0dip"
+                        android:paddingRight="5.0dip"
+                        android:text="0.00"
+                        android:textColor="#ffcb0303"
+                        android:textSize="@dimen/dimen_18_dip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5.0dip"
+                        android:text="元"
+                        android:textColor="#ff686868"
+                        android:textSize="16.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ListView
+            android:id="@id/my_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="0.0dip"
+            android:listSelector="#00000000" />
+
+        <LinearLayout
+            android:id="@id/expense_list_empty_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100.0dip"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="还没有消费记录！"
+                android:textColor="#ff77330e"
+                android:textSize="18.0dip" />
+
+            <Button
+                android:id="@id/main_btn_add"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:background="@drawable/record_btn" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40.0dip" >
+
+        <LinearLayout
+            android:id="@id/expense_list_popup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5.0dip"
+            android:paddingRight="5.0dip"
+            android:visibility="gone" >
+
+            <include layout="@layout/expense_type_popup" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

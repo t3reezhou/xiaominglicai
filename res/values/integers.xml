@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="chexian_prize_cell_count">8</integer>
+    <integer name="chexian_prize_duration">6000</integer>
+    <integer name="chexian_prize_max_distance">800</integer>
+</resources>

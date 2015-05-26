@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/main_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/topbar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_44_dip">
+        <Button android:textSize="@dimen/dimen_14_dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/top_back" android:background="@drawable/back_btn" android:layout_width="@dimen/dimen_70_dip" android:layout_height="@dimen/dimen_32_dip" android:layout_marginLeft="@dimen/dimen_10_dip" android:text="返回" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/dimen_18_dip" android:textColor="#ffffffff" android:id="@id/top_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="隐私协议" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ScrollView android:orientation="vertical" android:id="@id/panel_center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/dimen_15_dip" android:textColor="@color/privacy_text_color" android:id="@id/privacy_txt" android:padding="@dimen/dimen_10_dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="您即将使用的地就是" />
+    </ScrollView>
+</LinearLayout>

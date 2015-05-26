@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/topbar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_44_dip">
+        <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/top_back" android:background="@drawable/back_btn" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="返回" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/select_city_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="选择城市" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/top_ok" android:background="@drawable/topbtn" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="自动定位" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/my_progress" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:indeterminate="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/select_city_selected_city" android:background="#ff0b3465" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="49.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前城市：" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffff00" android:id="@id/select_city_current_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="XX" />
+    </LinearLayout>
+    <ListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" />
+</LinearLayout>

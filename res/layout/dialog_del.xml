@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_dialog_del_online"
+        android:layout_width="match_parent"
+        android:layout_height="80dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="同步删除"
+            android:textColor="#FF3333"
+            android:textSize="30dip" />
+    </RelativeLayout>
+
+    <include layout="@layout/divider" />
+    <RelativeLayout
+        android:id="@+id/rl_dialog_del_del"
+        android:layout_width="match_parent"
+        android:layout_height="80dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="本地删除"
+            android:textColor="#BB1314"
+            android:textSize="30dip" />
+    </RelativeLayout>
+
+    <include layout="@layout/divider" />
+
+    <RelativeLayout
+        android:id="@+id/rl_dialog_del_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="80dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="取消"
+            android:textColor="#00BBFF"
+            android:textSize="30dip" />
+    </RelativeLayout>
+
+</LinearLayout>

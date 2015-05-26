@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="about_version_margin_top">40.0dip</dimen>
+    <dimen name="about_logo_margin_top">20.0dip</dimen>
+    <dimen name="about_icon_margin_top">20.0dip</dimen>
+    <dimen name="chexian_main_panel_button_margin_top">10.0dip</dimen>
+    <item type="dimen" name="zhinan_button_margin">@dimen/dimen_28_dip</item>
+    <item type="dimen" name="zhinan_layout_margin">@dimen/dimen_30_dip</item>
+    <item type="dimen" name="zhinan_radio_height">@dimen/dimen_80_dip</item>
+    <item type="dimen" name="zhinan_radio_padding1">@dimen/dimen_23_dip</item>
+    <item type="dimen" name="zhinan_radio_padding">@dimen/dimen_12_dip</item>
+    <item type="dimen" name="zhinan_detail_margin">@dimen/dimen_16_dip</item>
+    <item type="dimen" name="zhinan_detail_linespace">@dimen/dimen_5_dip</item>
+    <item type="dimen" name="zhinan_button_marginLeft">@dimen/dimen_18_dip</item>
+    <item type="dimen" name="zhinan_button_marginRight">@dimen/dimen_18_dip</item>
+    <item type="dimen" name="zhinan_main_button_width">@dimen/dimen_130_dip</item>
+    <dimen name="main_panel_top_chart_panel_margin_top">0.0dip</dimen>
+    <dimen name="main_panel_add_new_record_btn_margin_top">20.0dip</dimen>
+    <dimen name="main_panel_expense_type_margin_top">20.0dip</dimen>
+    <dimen name="main_panel_expense_type_height">150.0dip</dimen>
+    <dimen name="edit_record_image_margin_left">5.0dip</dimen>
+    <dimen name="edit_record_main_panel_margin_top">20.0dip</dimen>
+    <dimen name="edit_record_bottom_panel_margin_top">25.0dip</dimen>
+    <dimen name="expense_chart_pie_translate_y">20.0dip</dimen>
+    <dimen name="expense_chart_pie_text_margin_top">50.0dip</dimen>
+</resources>

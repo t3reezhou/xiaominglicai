@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="text_num_gray">#ff333333</color>
+    <color name="dialog_title_blue">#ff9cccf7</color>
+    <color name="about_title_color">#ffff0000</color>
+    <color name="about_left_text_color">#ffff0000</color>
+    <color name="about_right_text_color">#ffffff00</color>
+    <color name="about_bottom_text_color">#ffff0000</color>
+    <color name="privacy_text_color">#ff81512f</color>
+    <color name="zhinan_radio_n">#ff373737</color>
+    <color name="zhinan_radio_s">#fffbdd00</color>
+    <color name="zhinan_topbtn">#ffdbdee0</color>
+</resources>

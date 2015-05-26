@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/panel_top"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip"
+        android:background="@drawable/topbar_bg" >
+
+        <Button
+            android:id="@id/top_back"
+            android:layout_width="70.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/back_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="#ffffffff"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="fuck"
+            android:text="晓敏理财"
+            android:textColor="#ffffff"
+            android:textSize="21.0sp" />
+
+        <Button
+            android:id="@id/top_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/btn_main_info"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@id/top_btn_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/btn_main_list"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="10.0dip" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="140.0dip"
+                android:layout_marginTop="@dimen/main_panel_top_chart_panel_margin_top"
+                android:background="@drawable/main_countbg"
+                android:padding="10.0dip" >
+
+                <TextView
+                    android:id="@id/main_top_panel_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:background="@drawable/monthbg"
+                    android:paddingBottom="2.0dip"
+                    android:paddingLeft="10.0dip"
+                    android:paddingRight="50.0dip"
+                    android:paddingTop="2.0dip"
+                    android:text="2015年2月"
+                    android:textColor="#ff773317"
+                    android:textSize="18.0dip" />
+
+                <TextView
+                    android:id="@id/main_top_panel_spend_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_top_panel_month"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:text="本月收支："
+                    android:textColor="#ff222222"
+                    android:textSize="16.0dip" />
+
+                <TextView
+                    android:id="@id/main_top_panel_spend_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/main_top_panel_spend_label"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:text="1856.00"
+                    android:textColor="#ffa3471d"
+                    android:textSize="20.0dip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/main_top_panel_spend_text"
+                    android:layout_toRightOf="@id/main_top_panel_spend_text"
+                    android:text="元"
+                    android:textColor="#ffa3471d"
+                    android:textSize="16.0dip" />
+
+                <LinearLayout
+                    android:id="@+id/ll_main_beforlogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimen_30_dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_weight="3.0"
+                    android:background="@drawable/monthbg"
+                    android:orientation="horizontal"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:id="@+id/tv_main_btn_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="3.0dip"
+                        android:text="登录"
+                        android:textColor="#ff773317"
+                        android:textSize="18.0dip" />
+
+                    <View
+                        android:layout_width="1.0dip"
+                        android:layout_height="fill_parent"
+                        android:background="#ffc89671"
+                        android:paddingLeft="3.0dip" />
+
+                    <TextView
+                        android:id="@+id/tv_main_btn_sign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="3.0dip"
+                        android:paddingRight="3.0dip"
+                        android:text="注册"
+                        android:textColor="#ff773317"
+                        android:textSize="18.0dip" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_main_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginRight="20dip"
+                    android:paddingLeft="3.0dip"
+                    android:text="未登录"
+                    android:textColor="#ff773317"
+                    android:textSize="18.0dip" />
+
+                <LinearLayout
+                    android:id="@+id/ll_main_afterlogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimen_30_dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_weight="3.0"
+                    android:background="@drawable/monthbg"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_main_btn_tongbu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="3.0dip"
+                        android:text="同步"
+                        android:textColor="#ff773317"
+                        android:textSize="18.0dip" />
+
+                    <View
+                        android:layout_width="1.0dip"
+                        android:layout_height="fill_parent"
+                        android:background="#ffc89671"
+                        android:paddingLeft="3.0dip" />
+
+                    <TextView
+                        android:id="@+id/tv_main_btn_logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="3.0dip"
+                        android:paddingRight="3.0dip"
+                        android:text="注销"
+                        android:textColor="#ff773317"
+                        android:textSize="18.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@id/main_btn_add"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/main_panel_add_new_record_btn_margin_top"
+                android:background="@drawable/record_btn" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/main_panel_expense_type_margin_top"
+                android:background="@drawable/type_bg"
+                android:orientation="vertical"
+                android:paddingBottom="1.0dip"
+                android:paddingLeft="1.0dip"
+                android:paddingRight="1.0dip" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="29.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:gravity="center_vertical"
+                    android:text="功能"
+                    android:textColor="#ffa3471d"
+                    android:textSize="14.0dip"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@id/main_grid_expense_type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/main_panel_expense_type_height"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3.0"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/main_btn_jiatingzu"
+                            style="@style/main_grid_button"
+                            android:drawableLeft="@drawable/icon_peishi"
+                            android:text="家庭组" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffc89671" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#ffc89671" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3.0"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/main_btn_liushui"
+                            style="@style/main_grid_button"
+                            android:drawableLeft="@drawable/icon_peijian"
+                            android:text="流水" />
+
+                        <View
+                            android:layout_width="1.0dip"
+                            android:layout_height="fill_parent"
+                            android:background="#ffc89671" />
+
+                        <Button
+                            android:id="@+id/main_btn_jiben"
+                            style="@style/main_grid_button"
+                            android:drawableLeft="@drawable/icon_chedai"
+                            android:text="基本" />
+
+                        <View
+                            android:layout_width="1.0dip"
+                            android:layout_height="fill_parent"
+                            android:background="#ffc89671" />
+
+                        <Button
+                            android:id="@+id/main_btn_yinhang"
+                            style="@style/main_grid_button"
+                            android:drawableLeft="@drawable/icon_baoxian"
+                            android:text="银行" />
+
+                        <View
+                            android:layout_width="1.0dip"
+                            android:layout_height="fill_parent"
+                            android:background="#ffc89671" />
+
+                        <Button
+                            android:id="@+id/main_btn_tongji"
+                            style="@style/main_grid_button"
+                            android:drawableLeft="@drawable/icon_other"
+                            android:text="统计" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

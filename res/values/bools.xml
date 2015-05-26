@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="showJP">true</bool>
+    <bool name="showSJ">true</bool>
+</resources>

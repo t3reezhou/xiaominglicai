@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/panel_top"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip"
+        android:background="@drawable/topbar_bg" >
+
+        <Button
+            android:id="@id/top_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/help_back"
+            android:gravity="center"
+            android:paddingLeft="5.0dip"
+            android:text="返回"
+            android:textColor="#ffffffff" />
+
+        <ImageView
+            android:id="@id/top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="fuck"
+            android:src="@drawable/text" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="9.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/main_countbg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <FrameLayout
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="25.0dip"
+                android:background="@drawable/image_bg" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5.0dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/guide" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15.0dip"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="48.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="5.0dip"
+                    android:text="@string/helper_chexian_txt"
+                    android:textColor="#ff8c5b43"
+                    android:textSize="12.0dip" />
+
+                <Button
+                    android:id="@id/helper_zhinan"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip"
+                    android:background="@drawable/helper_btn"
+                    android:gravity="left|center"
+                    android:paddingBottom="1.0dip"
+                    android:paddingLeft="9.0dip"
+                    android:text="车险指南"
+                    android:textColor="@android:color/white"
+                    android:textSize="12.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="10.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/my_line_parter" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <FrameLayout
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="25.0dip"
+                android:background="@drawable/image_bg" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5.0dip"
+                    android:background="@drawable/calculator"
+                    android:scaleType="fitXY" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15.0dip"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="48.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="5.0dip"
+                    android:text="@string/helper_jisuanqi_txt"
+                    android:textColor="#ff8c5b43"
+                    android:textSize="12.0dip" />
+
+                <Button
+                    android:id="@id/helper_jisuanqi"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip"
+                    android:background="@drawable/helper_btn"
+                    android:gravity="left|center"
+                    android:paddingBottom="1.0dip"
+                    android:paddingLeft="9.0dip"
+                    android:text="车险计算器"
+                    android:textColor="@android:color/white"
+                    android:textSize="12.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="10.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/my_line_parter" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <FrameLayout
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="25.0dip"
+                android:background="@drawable/image_bg" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5.0dip"
+                    android:background="@drawable/designated_driver"
+                    android:scaleType="fitXY" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15.0dip"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="48.0dip"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="5.0dip"
+                    android:text="@string/helper_daijia_txt"
+                    android:textColor="#ff8c5b43"
+                    android:textSize="12.0dip" />
+
+                <Button
+                    android:id="@id/helper_daijia"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip"
+                    android:background="@drawable/helper_btn"
+                    android:gravity="left|center"
+                    android:paddingBottom="1.0dip"
+                    android:paddingLeft="9.0dip"
+                    android:text="我要代驾"
+                    android:textColor="@android:color/white"
+                    android:textSize="12.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

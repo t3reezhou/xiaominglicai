@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/widget_selector_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dimen_10_dip"
+    android:paddingLeft="@dimen/dimen_10_dip"
+    android:paddingRight="@dimen/dimen_10_dip"
+    android:paddingTop="@dimen/dimen_10_dip" >
+
+    <!-- <cn.mucang.android.common.ui.wheel.WheelView android:id="@id/wheel_number" android:layout_width="fill_parent" android:layout_height="fill_parent" /> -->
+
+</LinearLayout>

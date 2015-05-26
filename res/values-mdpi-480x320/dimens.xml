@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zhinan_button_margin">10.0dip</dimen>
+    <dimen name="zhinan_layout_margin">10.0dip</dimen>
+    <dimen name="zhinan_radio_height">70.0dip</dimen>
+    <dimen name="zhinan_radio_padding1">16.0dip</dimen>
+    <dimen name="zhinan_radio_padding">9.0dip</dimen>
+    <item type="dimen" name="zhinan_detail_margin">@dimen/dimen_6_dip</item>
+    <item type="dimen" name="zhinan_detail_linespace">@dimen/dimen_1_dip</item>
+</resources>

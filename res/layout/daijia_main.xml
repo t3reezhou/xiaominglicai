@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/topbar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_44_dip">
+        <Button android:textSize="@dimen/dimen_14_dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/daijia_top_back" android:background="@drawable/back_btn" android:layout_width="@dimen/dimen_70_dip" android:layout_height="@dimen/dimen_32_dip" android:layout_marginLeft="@dimen/dimen_10_dip" android:text="返回" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/dimen_18_dip" android:textColor="#ffffffff" android:id="@id/daijia_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <WebView android:id="@id/daijia_web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

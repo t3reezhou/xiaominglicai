@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_44_dip"
+        android:background="@drawable/topbar_bg" >
+
+        <Button
+            android:id="@id/top_back"
+            android:layout_width="@dimen/dimen_70_dip"
+            android:layout_height="@dimen/dimen_32_dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_10_dip"
+            android:background="@drawable/back_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/dimen_14_dip" />
+
+        <TextView
+            android:id="@id/select_city_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="流水账"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/dimen_18_dip" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_entry_one_month"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right|center"
+            android:background="@drawable/tongji_btn"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="5.0dip"
+            android:text="本月"
+            android:textColor="@color/expense_chart_btn"
+            android:textSize="16.0dip" />
+
+        <RadioButton
+            android:id="@+id/rb_entry_year"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right|center"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/tongji_btn"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5.0dip"
+            android:text="今年"
+            android:textColor="@color/expense_chart_btn"
+            android:textSize="16.0dip" />
+
+        <RadioButton
+            android:id="@+id/rb_entry_all"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right|center"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/tongji_btn"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5.0dip"
+            android:text="全部"
+            android:textColor="@color/expense_chart_btn"
+            android:textSize="16.0dip" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@id/list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000" />
+
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffababab" >
+
+    <ImageView
+        android:id="@id/view_photo_image_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="fuck"
+        android:scaleType="centerInside"
+        android:src="@drawable/add_numbg" />
+
+    <RelativeLayout
+        android:id="@id/panel_top"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip"
+        android:background="@drawable/view_photo_topbg" >
+
+        <Button
+            android:id="@id/top_back"
+            android:layout_width="70.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/view_photo_back_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@id/top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="查看照片"
+            android:textColor="#ffffffff"
+            android:textSize="20.0dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/panel_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/view_photo_bottombg" >
+
+        <Button
+            android:id="@id/view_photo_btn_retake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/view_photo_retake_btn" />
+
+        <TextView
+            android:id="@id/view_photo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:minWidth="40.0dip"
+            android:text="1/1"
+            android:textColor="#ffffffff"
+            android:textSize="16.0dip" />
+
+        <Button
+            android:id="@id/view_photo_btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/view_photo_delete_btn" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/view_photo_text_view"
+            android:layout_toRightOf="@id/view_photo_btn_retake"
+            android:gravity="center" >
+
+            <Button
+                android:id="@id/view_photo_btn_previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/view_photo_previous_btn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/view_photo_btn_delete"
+            android:layout_toRightOf="@id/view_photo_text_view"
+            android:gravity="center" >
+
+            <Button
+                android:id="@id/view_photo_btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/view_photo_next_n" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/panel_center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="70.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:background="@drawable/view_photo_describebg"
+        android:orientation="vertical"
+        android:padding="10.0dip" >
+
+        <TextView
+            android:id="@id/view_photo_txt_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥0.00"
+            android:textColor="#ffffffff"
+            android:textSize="24.0dip" />
+
+        <TextView
+            android:id="@id/view_photo_txt_expense_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="停车"
+            android:textColor="#ffffffff"
+            android:textSize="16.0dip" />
+
+        <TextView
+            android:id="@id/view_photo_txt_expense_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="2012年12月31日 12:31"
+            android:textColor="#ffffffff"
+            android:textSize="16.0dip" />
+
+        <TextView
+            android:id="@id/view_photo_txt_expense_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="中华人民共和国中华人民共和国中华人民共和国中华人民共和国中华人民共和国"
+            android:textColor="#ffffffff"
+            android:textSize="16.0dip" />
+
+        <TextView
+            android:id="@id/view_photo_txt_expense_remark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="今天的停车费"
+            android:textColor="#ffffffff"
+            android:textSize="16.0dip" />
+    </LinearLayout>
+
+</FrameLayout>

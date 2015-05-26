@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/panel_top"
+        android:layout_width="fill_parent"
+        android:layout_height="44.0dip"
+        android:background="@drawable/topbar_bg" >
+
+        <Button
+            android:id="@id/top_back"
+            android:layout_width="70.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/back_btn"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@id/top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="更多"
+            android:textColor="#ffffffff"
+            android:textSize="18.0dip" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip" >
+
+            <LinearLayout
+                android:id="@id/option_view_in_market_line"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12.0dip"
+                android:background="@drawable/bg_round_corner_panel"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@id/option_view_in_market"
+                    android:layout_width="fill_parent"
+                    android:layout_height="43.0dip"
+                    android:background="@drawable/list_item_cover_all2"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="亲，给个好评吧"
+                        android:textColor="#ff445877"
+                        android:textSize="18.0dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20.0dip"
+                        android:contentDescription="fuck"
+                        android:src="@drawable/arrow_right" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12.0dip"
+                android:background="@drawable/bg_round_corner_panel"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@id/option_feed_back"
+                    android:layout_width="fill_parent"
+                    android:layout_height="43.0dip"
+                    android:background="@drawable/list_item_cover_top2"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="有奖反馈"
+                        android:textColor="#ff445877"
+                        android:textSize="18.0dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20.0dip"
+                        android:contentDescription="fuck"
+                        android:src="@drawable/arrow_right" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@id/option_line_sjbb_wrap"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/dimen_1_dip"
+                        android:background="#ffb1c2c9" />
+
+                    <RelativeLayout
+                        android:id="@id/option_sjbb"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/dimen_42_dip"
+                        android:background="@drawable/list_item_cover_center2"
+                        android:clickable="true"
+                        android:focusable="true" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dimen_12_dip"
+                            android:text="理财必备"
+                            android:textColor="#ff445877"
+                            android:textSize="18.0dip" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dimen_20_dip"
+                            android:src="@drawable/arrow_right" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@id/option_line_jptj_wrap"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/dimen_1_dip"
+                        android:background="#ffb1c2c9" />
+
+                    <RelativeLayout
+                        android:id="@id/option_jptj"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/dimen_42_dip"
+                        android:background="@drawable/list_item_cover_center2"
+                        android:clickable="true"
+                        android:focusable="true" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dimen_12_dip"
+                            android:text="精品软件推荐"
+                            android:textColor="#ff445877"
+                            android:textSize="18.0dip" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dimen_20_dip"
+                            android:src="@drawable/arrow_right" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="#ffb1c2c9" />
+
+                <RelativeLayout
+                    android:id="@id/option_share"
+                    android:layout_width="fill_parent"
+                    android:layout_height="42.0dip"
+                    android:background="@drawable/list_item_cover_bottom2"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="好友分享"
+                        android:textColor="#ff445877"
+                        android:textSize="18.0dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20.0dip"
+                        android:contentDescription="fuck"
+                        android:src="@drawable/arrow_right" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12.0dip"
+                android:background="@drawable/bg_round_corner_panel"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@id/option_check_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="43.0dip"
+                    android:background="@drawable/list_item_cover_top2"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="检查更新"
+                        android:textColor="#ff445877"
+                        android:textSize="18.0dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20.0dip"
+                        android:contentDescription="fuck"
+                        android:src="@drawable/arrow_right" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="#ffb1c2c9" />
+
+                <RelativeLayout
+                    android:id="@id/option_privacy"
+                    android:layout_width="fill_parent"
+                    android:layout_height="43.0dip"
+                    android:background="@drawable/list_item_cover_center2"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="隐私协议"
+                        android:textColor="#ff445877"
+                        android:textSize="18.0dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20.0dip"
+                        android:contentDescription="fuck"
+                        android:src="@drawable/arrow_right" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip"
+                    android:background="#ffb1c2c9" />
+
+                <RelativeLayout
+                    android:id="@id/option_about"
+                    android:layout_width="fill_parent"
+                    android:layout_height="43.0dip"
+                    android:background="@drawable/list_item_cover_bottom2"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12.0dip"
+                        android:text="关于"
+                        android:textColor="#ff445877"
+                        android:textSize="18.0dip" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20.0dip"
+                        android:contentDescription="fuck"
+                        android:src="@drawable/arrow_right" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="12.0dip" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

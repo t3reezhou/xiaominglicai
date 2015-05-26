@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/select_city_list_item_bg_letter" android:background="@drawable/bg_letter" android:layout_width="fill_parent" android:layout_height="22.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="#ff445877" android:layout_gravity="center_vertical" android:id="@id/select_city_list_item_letter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="1.5L" />
+    </LinearLayout>
+    <View android:id="@id/select_city_list_item_bg_line" android:background="#ffd3dce0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_common_list_item" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <LinearLayout android:gravity="center" android:layout_width="80.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/select_car_logo" android:layout_width="80.0dip" android:layout_height="53.0dip" android:src="@drawable/my_car" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="#ff445877" android:id="@id/select_car_brand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2011款3.0TFSI ，看看效果换行的" android:layout_toRightOf="@id/temp_left" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

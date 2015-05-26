@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/item_line"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_49_dip"
+        android:background="@drawable/bg_list_item"
+        android:paddingLeft="@dimen/dimen_10_dip"
+        android:paddingRight="@dimen/dimen_10_dip" >
+
+        <ImageView
+            android:id="@id/line_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:contentDescription="fuck"
+            android:src="@drawable/list_dot" />
+
+        <TextView
+            android:id="@id/item_line_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_8_dip"
+            android:layout_marginRight="@dimen/dimen_15_dip"
+            android:layout_toRightOf="@id/line_image"
+            android:text="市公安交通管理局"
+            android:textColor="#ff445877"
+            android:textSize="@dimen/dimen_17_dip" />
+
+        <ImageView
+            android:id="@id/item_line_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_5_dip"
+            android:contentDescription="fuck"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+</LinearLayout>

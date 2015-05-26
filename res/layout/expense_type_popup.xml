@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tc_pop"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingTop="12.0dip" >
+
+    <LinearLayout
+        android:id="@id/main_grid_expense_type"
+        android:layout_width="fill_parent"
+        android:layout_height="70.0dip"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffc89671" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3.0"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/main_btn_person"
+                style="@style/main_grid_button"
+                android:drawableLeft="@drawable/icon_repair"
+                android:text="个人信息" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@+id/main_btn_jiatingzu"
+                style="@style/main_grid_button"
+                android:drawableLeft="@drawable/icon_peishi"
+                android:text="家庭组" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffc89671" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3.0"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/main_btn_liushui"
+                style="@style/main_grid_button"
+                android:drawableLeft="@drawable/icon_peijian"
+                android:text="流水" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@+id/main_btn_jiben"
+                style="@style/main_grid_button"
+                android:drawableLeft="@drawable/icon_chedai"
+                android:text="基本" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@+id/main_btn_yinhang"
+                style="@style/main_grid_button"
+                android:drawableLeft="@drawable/icon_baoxian"
+                android:text="银行" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@+id/main_btn_tongji"
+                style="@style/main_grid_button"
+                android:drawableLeft="@drawable/icon_other"
+                android:text="统计" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attention">注意</string>
+    <string name="delete_all">是否要删除这条微博？</string>
+    <string name="ok">是</string>
+    <string name="cancel">否</string>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">XiaoMingLiCai</string>
+    <string name="send">发送</string>
+    <string name="close">关闭</string>
+    <string name="share_dialog_title">新浪微博</string>
+    <string name="please_login">请登录！</string>
+    <string name="send_sucess">分享成功！</string>
+    <string name="send_failed">分享失败！</string>
+    <string name="del_pic">是否删除图片？</string>
+    <string name="update_url">http://zhangben.kakamobi.com/update.ashx</string>
+    <string name="notice_url">http://zhangben.kakamobi.com/notice.ashx</string>
+    <string name="product">kakazhangben</string>
+    <string name="feedback_url">http://zhangben.kakamobi.com/post.ashx</string>
+    <string name="software1">全国城市交通违章查询实用工具，提供最全最方便的交通违章查询服务，手机版覆盖android、iphone、S60等平台</string>
+    <string name="software2">酒精测试仪是一款司机实用工具，根据最新“酒驾新规”量身定制；根据用户所输饮酒信息,便捷显示各种驾驶状态，并提醒不同状态下距离安全驾驶所需时间。</string>
+    <string name="ren">zy</string>
+    <string name="vr">wuhan</string>
+    <string name="chexian_test">"1,车辆损失险;
+2,商业第三者责任保险(50万);
+ 3,全车盗抢险;
+ 4,司机座位责任险(5万/座);
+ 5,乘客座位责任险(1万/座);
+ 6,玻璃单独破碎险(国产玻璃);
+ 7,车身划痕损失险(5000元);
+ 8,不计免赔(三责/车损/司机/乘客)"</string>
+    <string name="share_content">卡卡司机理财，是一款专业的汽车消费理财工具。洗车加油、维修保养，有了花费记上一笔，用手机轻松管理爱车的开支明细。精打细算能省钱，司机理好财老婆更加爱。licai.kakamobi.com</string>
+    <string name="share_sns_content_tail_renren">http://zhangben.kakamobi.com 分享自卡卡司机理财</string>
+    <string name="share_sns_content_tail_sina">http://zhangben.kakamobi.com 分享自@卡卡司机理财</string>
+    <string name="share_sns_content_tail_qq">http://zhangben.kakamobi.com 分享自@kakamobi</string>
+    <string name="share_sns_content_head">\#卡卡司机理财#</string>
+    <string name="helper_chexian_txt">为都市男女、新老熟手量身定制购险方案。</string>
+    <string name="helper_daijia_txt">亲朋好友聚会，喝完就找专业司机代驾！</string>
+    <string name="helper_jisuanqi_txt">测算私人车险，量身定制车险组合。安全保障又实惠！</string>
+    <string name="version_name">2.3</string>
+</resources>

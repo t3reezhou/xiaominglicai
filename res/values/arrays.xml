@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="block_color_array">
+        <item>#ff39b4ff</item>
+        <item>#ff3c6d9d</item>
+        <item>#ff6ea45b</item>
+        <item>#ffedb04d</item>
+        <item>#ff706276</item>
+        <item>#ffcb473b</item>
+        <item>#ff8f9291</item>
+        <item>#ffed4dac</item>
+        <item>#ff9cc755</item>
+        <item>#ff48b7ae</item>
+        <item>#ffb09270</item>
+        <item>#ff84528c</item>
+    </array>
+</resources>

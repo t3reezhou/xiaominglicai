@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zhinan_button_margin">25.0dip</dimen>
+    <dimen name="zhinan_layout_margin">25.0dip</dimen>
+    <dimen name="zhinan_radio_height">70.0dip</dimen>
+    <dimen name="zhinan_radio_padding1">16.0dip</dimen>
+    <dimen name="zhinan_radio_padding">9.0dip</dimen>
+    <item type="dimen" name="zhinan_detail_margin">@dimen/dimen_20_dip</item>
+    <item type="dimen" name="zhinan_detail_linespace">@dimen/dimen_5_dip</item>
+    <item type="dimen" name="zhinan_button_marginLeft">@dimen/dimen_38_dip</item>
+    <item type="dimen" name="zhinan_button_marginRight">@dimen/dimen_38_dip</item>
+    <item type="dimen" name="zhinan_main_button_width">@dimen/dimen_150_dip</item>
+    <dimen name="main_panel_top_chart_panel_margin_top">0.0dip</dimen>
+    <dimen name="main_panel_add_new_record_btn_margin_top">2.0dip</dimen>
+    <dimen name="main_panel_expense_type_margin_top">2.0dip</dimen>
+    <dimen name="edit_record_main_panel_margin_top">5.0dip</dimen>
+    <dimen name="edit_record_bottom_panel_margin_top">10.0dip</dimen>
+</resources>

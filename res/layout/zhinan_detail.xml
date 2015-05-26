@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/zhinan_top" android:background="@drawable/leader" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_44_dip">
+        <Button android:textSize="@dimen/dimen_14_dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/zhinan_top_back" android:background="@drawable/zhinan_back_btn" android:layout_width="@dimen/dimen_70_dip" android:layout_height="@dimen/dimen_32_dip" android:layout_marginLeft="@dimen/dimen_10_dip" android:text="返回" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/zhinan_detail_group" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_32_dip" android:layout_centerInParent="true">
+            <RadioButton android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/zhinan_detail_xiangjie" android:background="@drawable/dent_left_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="险种详解" />
+            <RadioButton android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/zhinan_detail_wenti" android:background="@drawable/dent_right_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="常见问题" />
+        </RadioGroup>
+    </RelativeLayout>
+    <ExpandableListView android:scrollbarAlwaysDrawHorizontalTrack="true" android:id="@id/zhinan_xianzhong_lv" android:background="#fff0efed" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:groupIndicator="@null" android:divider="@null" android:choiceMode="singleChoice" />
+</LinearLayout>

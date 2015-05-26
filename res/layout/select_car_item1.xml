@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/select_city_list_item_bg_letter" android:background="@drawable/bg_letter" android:layout_width="fill_parent" android:layout_height="22.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="#ff445877" android:layout_gravity="center_vertical" android:id="@id/select_city_list_item_letter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="A" />
+    </LinearLayout>
+    <View android:id="@id/select_city_list_item_bg_line" android:background="#ffd3dce0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:background="@drawable/bg_common_list_item" android:layout_width="fill_parent" android:layout_height="49.0dip">
+        <LinearLayout android:gravity="center" android:id="@id/temp_left" android:layout_width="80.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/select_car_logo" android:layout_width="80.0dip" android:layout_height="53.0dip" android:src="@drawable/temp_audi" android:scaleType="centerInside" />
+        </LinearLayout>
+        <TextView android:textSize="18.0dip" android:textColor="#ff445877" android:id="@id/select_car_brand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="奥迪" android:layout_toRightOf="@id/temp_left" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/select_car_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

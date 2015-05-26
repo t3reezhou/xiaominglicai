@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/main_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/topbar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_44_dip">
+        <Button android:textSize="@dimen/dimen_14_dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/top_back" android:background="@drawable/back_btn" android:layout_width="@dimen/dimen_70_dip" android:layout_height="@dimen/dimen_32_dip" android:layout_marginLeft="@dimen/dimen_10_dip" android:text="返回" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/dimen_18_dip" android:textColor="#ffffffff" android:id="@id/top_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="有奖反馈" android:layout_centerInParent="true" />
+        <Button android:textSize="@dimen/dimen_14_dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/top_ok" android:background="@drawable/topbtn" android:layout_width="@dimen/dimen_70_dip" android:layout_height="@dimen/dimen_32_dip" android:layout_marginRight="@dimen/dimen_10_dip" android:text="提交" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/panel_center" android:padding="@dimen/dimen_10_dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <EditText android:textSize="@dimen/dimen_14_dip" android:gravity="top|left|center" android:id="@id/feed_back_content" android:background="@drawable/bg_round_corner_panel" android:padding="@dimen/dimen_10_dip" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_120_dip" android:hint="感谢您的建议，我们每周会随机抽出10名幸运用户，每位幸运用户都将获得我们提供的50元话费" />
+            <EditText android:textSize="@dimen/dimen_14_dip" android:gravity="top|left|center" android:id="@id/feed_back_link" android:background="@drawable/bg_round_corner_panel" android:padding="@dimen/dimen_10_dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10_dip" android:hint="请输入手机号码，方便获奖后我们为您充值" android:singleLine="true" android:inputType="textPhonetic" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

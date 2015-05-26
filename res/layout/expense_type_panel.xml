@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="151.0dip"
+    android:background="@drawable/record_titlebg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:gravity="center_vertical"
+        android:text="汽车消费"
+        android:textColor="#ff773317"
+        android:textSize="16.0dip" />
+
+    <LinearLayout
+        android:id="@id/main_grid_expense_type"
+        android:layout_width="fill_parent"
+        android:layout_height="120.0dip"
+        android:layout_marginTop="1.0dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3.0"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@id/main_btn_jiayou"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_gas_n"
+                android:text="加油" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@id/main_btn_xiche"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_wash_car_n"
+                android:text="洗车" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@id/main_btn_tingche"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_parkcar_n"
+                android:text="停车" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@id/main_btn_guolu"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_road_n"
+                android:text="过路" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffc89671" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3.0"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@id/main_btn_baoyang"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_baoyang_n"
+                android:text="保养" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@id/main_btn_weixiu"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_repair_n"
+                android:text="维修" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@id/main_btn_weizhang"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_weizhang_n"
+                android:text="违章" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@id/main_btn_shipin"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_peishi_n"
+                android:text="饰品" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffc89671" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3.0"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@id/main_btn_peijian"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_peijian_n"
+                android:text="配件" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@id/main_btn_chedai"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_chedai_n"
+                android:text="车贷" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@id/main_btn_chexian"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_baoxian_n"
+                android:text="车险" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ffc89671" />
+
+            <Button
+                android:id="@id/main_btn_qita"
+                style="@style/pop_grid_button"
+                android:drawableLeft="@drawable/icon_other_n"
+                android:text="其他" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

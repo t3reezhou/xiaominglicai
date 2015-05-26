@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#ff183055" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/topbar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_45_dip">
+        <Button android:textSize="@dimen/dimen_14_dip" android:textColor="#ffffffff" android:id="@id/top_back" android:background="@drawable/back_btn" android:layout_width="@dimen/dimen_70_dip" android:layout_height="@dimen/dimen_32_dip" android:layout_marginLeft="@dimen/dimen_5_dip" android:text="返回" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/dimen_18_dip" android:textColor="#ffffffff" android:id="@id/title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="应用推荐" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/dimen_10_dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/software_panel" android:background="@drawable/tj" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/above" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/dimen_20_dip" android:layout_marginRight="@dimen/dimen_20_dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/software_icon1" android:layout_width="@dimen/dimen_66_dip" android:layout_height="@dimen/dimen_95_dip" android:src="@drawable/software_icon1" android:scaleType="fitXY" android:contentDescription="fuck" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_15_dip">
+                    <ImageView android:layout_gravity="left" android:layout_width="@dimen/dimen_161_dip" android:layout_height="@dimen/dimen_19_dip" android:src="@drawable/software_title1" android:scaleType="fitXY" android:contentDescription="fuck" />
+                    <TextView android:textSize="@dimen/dimen_12_dip" android:textColor="#ff000000" android:gravity="left" android:id="@id/software_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5_dip" android:text="@string/software1" />
+                    <TextView android:textSize="@dimen/dimen_14_dip" android:textColor="#ffff6600" android:gravity="left" android:autoLink="all" android:id="@id/software_site1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击查看" />
+                    <Button android:gravity="left" android:id="@id/software_download1" android:background="@drawable/download_btn" android:layout_width="@dimen/dimen_125_dip" android:layout_height="@dimen/dimen_35_dip" android:layout_marginTop="@dimen/dimen_5_dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bottom" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/dimen_20_dip" android:layout_marginTop="@dimen/dimen_10_dip" android:layout_marginRight="@dimen/dimen_20_dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/software_icon2" android:layout_width="@dimen/dimen_66_dip" android:layout_height="@dimen/dimen_95_dip" android:src="@drawable/software_icon2" android:scaleType="fitXY" android:contentDescription="fuck" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_15_dip">
+                    <ImageView android:layout_gravity="left" android:layout_width="@dimen/dimen_161_dip" android:layout_height="@dimen/dimen_19_dip" android:src="@drawable/software_title2" android:scaleType="fitXY" android:contentDescription="fuck" />
+                    <TextView android:textSize="@dimen/dimen_12_dip" android:textColor="#ff000000" android:gravity="left" android:id="@id/software_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5_dip" android:text="@string/software2" />
+                    <TextView android:textSize="@dimen/dimen_14_dip" android:textColor="#ffff6600" android:gravity="left" android:autoLink="all" android:id="@id/software_site2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击查看" />
+                    <Button android:gravity="left" android:id="@id/software_download2" android:background="@drawable/download_btn" android:layout_width="@dimen/dimen_125_dip" android:layout_height="@dimen/dimen_35_dip" android:layout_marginTop="@dimen/dimen_5_dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
